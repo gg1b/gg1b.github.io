@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>La historia oculta de los Grammys</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contenido relacionado con los Grammys">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Alba Sondesa">
+    <meta http-equiv="refresh" content="45">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #4d4c4cb9;
+            margin: 50px;
+        }
+        
+        h1 {
+            color: orange;
+        }
+        
+        p {
+            color: white;
+        }
+        
+        header {
+            width: 100%;
+            background: orange;
+            justify-content: center;
+        }
+        
+        header label {
+            display: none;
+            width: 30px;
+            height: 30px;
+            padding: 10px;
+            justify-content: center;
+        }
+        
+        header label:hover {
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.3);
+            justify-content: center;
+        }
+        
+        .patata ul {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .patata li:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        .patata li a {
+            display: block;
+            padding: 15px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .patata {
+            font-family: 'Trade Winds';
+        }
+        
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+            background-color: #555;
+        }
+        
+        .highlight-list {
+            color: powderblue;
+        }
+        
+        .highlight-heading {
+            color: rgb(175, 66, 166);
+        }
+        
+        .myIcon {
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="patata">
+            <ul>
+                <li><a href="index.html">MENÚ PRINCIPAL</a></li>|
+                <li><a href="pagina1.html">MEJORES VESTUARIOS </a></li> |
+                <li><a href="pagina2.html">MEJORES MOMENTOS</a></li> |
+                <li><a href="pagina3.html">OTROS</a></li> |
+            </ul>
+        </nav>
+    </header><br>
+
+    <h1>
+        <center>OTROS PREMIOS MUSICALES
+            <center/>
+    </h1><br>
+    <h2 class="highlight-heading">1. American Music Awards<span class="myIcon">&#127908;</span></h2>
+    <p>Conocidos como American Music Awards (AMA), reconocen a los artistas más populares, considerados lo mejor de la música, dichos premios son competitivos a los Grammy. Posee la categoría de Mejor Sencillo o Grabación. Los nominados se determinan por
+        medio de una encuesta realizada a los consumidores de la música. La ceremonia de los premios es celebrada en noviembre.</p>
+    <p>Categorías:</p>
+    <ul class="highlight-list">
+        <li>Artista del año</li>
+        <li>Artista favorito Rap/Hip-Hop</li>
+        <li>Nuevo artista del año</li>
+        <li>Álbum Favorito</li>
+        <li>Tour del Año</li>
+    </ul>
+
+    <p>Otras categorías van dirigidas hacia el Pop, Rap, Hip-Hop, Rock, Country, Adulto Contemporáneo, Soul y R&B.</p>
+
+    <h2 class="highlight-heading">2. Billboard Music Award<span class="myIcon">&#127926;</span></h2>
+    <p>Son unos premios entregados por la revista Billboard, sus premios son dedicados a músicos, sencillos y álbumes con mayores ventas.</p>
+    <p>Pasos en la obtención de un premio Billboard Music Award:</p>
+    <ul class="highlight-list">
+        <li>Los finalistas para los premios son seleccionados por su comercialización en Estados Unidos, dichos datos son obtenidos por medio de los registros del Sistema Nielsen SoundScan.</li>
+        <li>Los premios serán otorgados a artistas de diferentes géneros.</li>
+        <li>El Billboard Century Award va dirigido a alguien que haya realizado un aporte significativo y creativo a la industria discográfica.</li>
+        <li>Los ganadores son anunciados durante la ceremonia.</li>
+    </ul>
+
+
+    <h2 class="highlight-heading">3.Premios Lo Nuestro<span class="myIcon">&#127942;</span></h2>
+    <p>
+        Conocido también como Premios Lo Nuestro a la Música Latina, van dedicados a los mejores músicos latinos del año, dichos premios fueron creados en 1989, por lo que son los premios más antiguos de la música latina. Se encarga de premiar a los artistas
+        más significativos del mundo musical latino a través del premio a la Excelencia.</p>
+    <p>Pasos para la entrega de los Premios</p>
+    <ul class="highlight-list">
+        <li>La empresa Univisión anuncia a los cantantes de la lista de popularidad, nominados en as 28 categorías.</li>
+        <li>A partir de enero los fans de los artistas nominados podrán votar.</li>
+        <li>En febrero se otorga el galardón.</li>
+    </ul>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">SUBIR</button>
+    <script src="js/scrollTop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>
